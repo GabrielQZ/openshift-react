@@ -7,8 +7,7 @@ import {fas} from "@fortawesome/free-solid-svg-icons"
 library.add(fas);
 
 const App = () => {
-  console.log(process.env.TEST);
-  console.log('hi')
+  console.log(process.env.REACT_APP_API_HOST);
   return (
     <Fragment>
       <BrowserRouter>
